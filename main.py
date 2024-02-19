@@ -9,7 +9,7 @@ st.markdown("""
 정확한 최종 진단 결과는 반드시 전문 담당 의사의 확인과 승인을 거치십시요.""")
 
 image2 = Image.open('brain.jpg')
-st.image(image2, caption='shop2world.com 뇌종양 MRI 판독 서비스',use_column_width=True)
+st.image(image2, caption='뇌종양 MRI 판독 서비스',use_column_width=True)
 
 
 st.text("***이미지 분류를 위해 뇌 MRI 이미지를 업로드 해 주세요***")
