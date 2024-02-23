@@ -32,4 +32,4 @@ if uploaded_file is not None:
 
 
 
-st.markdown("Made by KIM")
+st.markdown("Made by MH KIM")
