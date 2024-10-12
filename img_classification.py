@@ -7,6 +7,8 @@ import numpy as np
 
 
 def mri_machine_classification(img, weights_file):
+    
+    '''
     # 모델로드
     model = keras.models.load_model(weights_file)
 
@@ -28,4 +30,5 @@ def mri_machine_classification(img, weights_file):
     # 예측 시작 
     prediction = model.predict(data)
     return np.argmax(prediction) # 가장 높은 확률의 반환 위치
+    '''
 '''
