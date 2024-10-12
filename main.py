@@ -18,7 +18,7 @@ st.text("***이미지 분류를 위해 뇌 MRI 이미지를 업로드 해 주세
 
 from PIL import Image, ImageOps
 
-
+'''
 from img_classification import mri_machine_classification
 
 uploaded_file = st.file_uploader("뇌 MRI 사진을 업로드 해 주세요.", type=['jpeg', 'png', 'jpg', 'webp'])
@@ -35,3 +35,4 @@ if uploaded_file is not None:
             st.write("***결과 : MRI 스캔은 건강합니다***")
 
 st.markdown("Made by MH KIM")
+'''
