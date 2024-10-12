@@ -2,8 +2,8 @@
 #import keras
 
 
-from PIL import Image, ImageOps
-import numpy as np
+#from PIL import Image, ImageOps
+#import numpy as np
 
 
 def mri_machine_classification(img, weights_file):
