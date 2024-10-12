@@ -1,6 +1,5 @@
-python == 3.9
+numpy
 streamlit
-numpy ==1.22
 pillow
 keras
 tensorflow
