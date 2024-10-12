@@ -1,4 +1,5 @@
 import keras
+'''
 from PIL import Image, ImageOps
 import numpy as np
 
@@ -25,3 +26,4 @@ def mri_machine_classification(img, weights_file):
     # 예측 시작 
     prediction = model.predict(data)
     return np.argmax(prediction) # 가장 높은 확률의 반환 위치
+'''
