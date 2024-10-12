@@ -7,6 +7,7 @@ import numpy as np
 
 
 def mri_machine_classification(img, weights_file):
+    st.text("test!!!")
     
     '''
     # 모델로드
