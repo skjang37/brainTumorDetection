@@ -15,11 +15,12 @@ st.image(image2, caption='뇌종양 MRI 판독 서비스',use_column_width=True)
 st.text("***이미지 분류를 위해 뇌 MRI 이미지를 업로드 해 주세요***")
 #Streamlit 파일 처리 및 결과
 #https://stackoverflow.com/questions/50906123/nameerror-name-image-is-not-defined/50906222
-'''
+
 from PIL import Image, ImageOps
 
 from img_classification import mri_machine_classification
 uploaded_file = st.file_uploader("뇌 MRI 사진을 업로드 해 주세요.", type=['jpeg', 'png', 'jpg', 'webp'])
+'''
 if uploaded_file is not None:
         image = Image.open(uploaded_file)
         st.image(image, caption='Uploaded MRI.', use_column_width=True)
@@ -30,7 +31,7 @@ if uploaded_file is not None:
             st.write("***결과 : MRI 스캔에는 뇌종양이 있습니다***")
         else:
             st.write("***결과 : MRI 스캔은 건강합니다***")
-
-
 '''
+
+
 st.markdown("Made by MH KIM")
